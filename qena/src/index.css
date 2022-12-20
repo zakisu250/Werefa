@@ -21,9 +21,15 @@ body {
 }
 .container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
   place-items: center;
+}
+.vis a {
+  color: #2e2e2e;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 .book {
   width: 300px;
@@ -62,11 +68,9 @@ a {
   color: inherit;
   flex: 0;
 }
-#logo {
-  margin-right: 50px;
-}
 .list {
   list-style: none;
+  font-size: 1.2rem;
   display: flex;
   gap: 25px;
   cursor: pointer;

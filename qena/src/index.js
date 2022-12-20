@@ -11,6 +11,10 @@ const Read = () => {
       <section className="container">
         <Book img={fBook.img} author={fBook.author} title={fBook.title} />
         <Book img={sBook.img} author={sBook.author} title={sBook.title} />
+        <Book img={fBook.img} author={fBook.author} title={fBook.title} />
+        <Book img={sBook.img} author={sBook.author} title={sBook.title} />
+        <Book img={fBook.img} author={fBook.author} title={fBook.title} />
+        <Book img={sBook.img} author={sBook.author} title={sBook.title} />
       </section>
     </div>
   );
@@ -18,7 +22,6 @@ const Read = () => {
 const Header = () => {
   return (
     <div className="navbar">
-      <br />
       <div className="vis">
         <a href="index.html" id="LOGO">
           QENA
